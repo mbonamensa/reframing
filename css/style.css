@@ -1,0 +1,119 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: quicksand;
+color: #004AAD;
+}
+
+body {
+background: #f5f5dc;
+}
+
+header {
+position: relative;
+text-align: center;
+background: radial-gradient(#f5f5dc, #add8e6);
+}
+
+a {
+text-decoration: none;
+}
+
+ul {
+text-decoration: none;
+}
+
+h1 {
+font-size: 40px;
+margin-bottom: 20px;
+}
+
+h2 {
+text-align: center;
+}
+
+
+.main-container {
+margin: 60px;
+}
+
+.container {
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.row {
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.col-2 {
+flex-basis: 50%;
+min-width: 300px;
+}
+
+.col-1 {
+flex-basis: 90%;
+min-width: 300px;
+text-align: center;
+}
+
+.header-img {
+width: 100%;
+padding: 50px;
+}
+
+.header-msg {
+text-align: left;
+}
+
+button {
+padding: 7px 25px;
+background: #004aad;
+border: none;
+border-radius: 20px;
+margin-top: 20px;
+color: beige
+}
+
+button:hover {
+background: #5ce1e6;
+transition: 0.3s ease-in-out 0.3s;
+color: #004aad;
+}
+
+button:active {
+background: #5ce1e6;
+color: #004aad;
+}
+
+.thoughts {
+margin-bottom: 20px;
+}
+
+.neg-thoughts {
+margin-bottom: 10px;
+}
+
+.reframe-container {
+ margin: 10px 0;
+}
+
+.btn {
+padding: 10px;
+border-radius: 5px;
+}
+
+footer {
+background: radial-gradient(#f5f5dc, #add8e6);
+padding: 20px;
+}
+
+.footer {
+text-align: center;
+}
