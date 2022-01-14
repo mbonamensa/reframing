@@ -78,7 +78,8 @@ background: #004aad;
 border: none;
 border-radius: 20px;
 margin-top: 20px;
-color: beige
+color: beige;
+cursor: pointer;
 }
 
 button:hover {
