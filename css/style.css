@@ -88,7 +88,7 @@ transition: 0.3s ease-in-out 0.3s;
 color: #004aad;
 }
 
-button:active {
+header-btn:active {
 background: #5ce1e6;
 color: #004aad;
 }
