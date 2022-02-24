@@ -77,14 +77,14 @@ padding: 7px 25px;
 background: #004aad;
 border: none;
 border-radius: 20px;
-margin-top: 20px;
-color: beige;
+margin-top: 10px;
+color: #f5f5dc;
 cursor: pointer;
+transition: 0.5s ease-in;
 }
 
 button:hover {
 background: #5ce1e6;
-transition: 0.3s ease-in-out 0.3s;
 color: #004aad;
 }
 
@@ -93,8 +93,12 @@ background: #5ce1e6;
 color: #004aad;
 }
 
+.heading {
+padding: 30px;
+}
+
 .thoughts {
-margin-bottom: 20px;
+margin-bottom: 50px;
 }
 
 .neg-thoughts {
@@ -108,6 +112,11 @@ margin-bottom: 10px;
 .btn {
 padding: 10px;
 border-radius: 5px;
+}
+
+.reset {
+text-align: right;
+padding: 30px;
 }
 
 footer {
