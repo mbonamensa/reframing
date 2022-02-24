@@ -114,6 +114,11 @@ padding: 10px;
 border-radius: 5px;
 }
 
+.reset {
+text-align: right;
+padding: 30px;
+}
+
 footer {
 background: radial-gradient(#f5f5dc, #add8e6);
 padding: 20px;
